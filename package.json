@@ -1,0 +1,22 @@
+{
+  "name": "bookstoreapi",
+  "version": "1.0.0",
+  "description": "Book Store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosSantosDev/bookStoreApi.git"
+  },
+  "author": "Marcos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosSantosDev/bookStoreApi/issues"
+  },
+  "homepage": "https://github.com/MarcosSantosDev/bookStoreApi#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
