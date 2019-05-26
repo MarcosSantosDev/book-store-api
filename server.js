@@ -26,13 +26,8 @@ server.use((req, res, next) => {
     }
 });
 
-const routes = {
-    main: require('./router'),
-    login: require('./router/login')
-};
-
 /** Routes */
-server.get('/', routes.main);
+server.use('/', require('./router'));
 
 /** Errors */
 server.use((req, res, next) => {

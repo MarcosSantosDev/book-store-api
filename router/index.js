@@ -1,8 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => {
+const routes = {
+    books: require('./books'),
+    login: require('./login'),
+    booksStore: require('./booksStore')
+};
 
+router.get('/', (req, res) => {
     res.status(201);
     res.json({
         'app': 'Book store',
@@ -10,5 +15,7 @@ router.get('/', (req, res) => {
         'linkedIn': 'https://www.linkedin.com/in/marcossantosdev/'
     });
 });
+
+router.use('/books', routes.books);
 
 module.exports = router;
