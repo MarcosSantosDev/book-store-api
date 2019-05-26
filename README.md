@@ -9,3 +9,11 @@ npm install
 ```
 npm start 
 ```
+###### Run nodemon
+```
+npm run nodemon 
+```
+### To test
+```
+npm run test 
+```

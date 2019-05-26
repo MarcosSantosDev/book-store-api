@@ -1,0 +1,8 @@
+const server = require('../server');
+
+const app = server.listen(3000, () => {
+    const host = (app.address().address != '::') ? app.address().address : 'localhost';
+    const port = app.address().port;
+    console.log('Server running in http://%s:%s', host, port);
+});
+
