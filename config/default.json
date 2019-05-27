@@ -1,0 +1,9 @@
+{
+    "mongo": {
+        "username": "bookStoreApi",
+        "password": "mLab2019",
+        "server": "ds261626.mlab.com",
+        "port": 61626,
+        "database": "book_store"
+    }
+}
