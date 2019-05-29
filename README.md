@@ -22,7 +22,6 @@ Enter the project directory:
 cd bookStoreApi
 ```
 
-
 #### Start aplication
 ```
 npm start 
@@ -44,4 +43,4 @@ npm run test
   - [GitHub](https://github.com/MarcosSantosDev) / [Linkedin](https://www.linkedin.com/in/marcossantosdev/)
 
 ## License
-This project is licensed under the MIT license, for more details see [LICENSE.md](https://github.com/wesdeveloper/bookstore_api/blob/master/LICENSE.md)
+This project is licensed under the MIT license, for more details see [LICENSE.md](https://github.com/MarcosSantosDev/bookStoreApi/blob/master/LICENSE.md)
