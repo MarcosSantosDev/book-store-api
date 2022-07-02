@@ -1,4 +1,4 @@
-# bookStoreApi
+# book-store-api
 
 An book store api to handle data of the books already read and available to reads.
 
@@ -9,7 +9,7 @@ Clone the project, install dependencies and start aplication.
 To clone the project:
 
 ```
-https: //github.com/MarcosSantosDev/bookStoreApi.git
+https: //github.com/MarcosSantosDev/book-store-api.git
 ```
 
 Install dependencies
